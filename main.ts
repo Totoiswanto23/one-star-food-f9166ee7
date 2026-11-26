@@ -1,6 +1,8 @@
 // one-star-food-f9166ee7: a one-star review of planet Earth, written by an
 // alien tourist — who still admits the food was excellent. This program
 // writes that single sentence to /output/entry.txt, where the gate reads it.
+// Bounty rule: exactly one sentence, 1–200 characters, alien voice, one star
+// for the trip and five stars for the food.
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
